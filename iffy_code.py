@@ -4,18 +4,18 @@
 
 #	Unsafe/Banned Functions - iffy_code
 #   All Unsafe/Banned functions pulled from Microsoft, OWASP, and DISA STIGS
-# 	Written by bwhunan
+# 	Written by Will Harmon (aka h3ss1an)
 #
 #   This program is free software: you can redistribute it and/or modify
-#   it under the terms of the GNU General Public License as published by  
+#   it under the terms of the GNU General Public License as published by
 #   the Free Software Foundation, either version 3 of the License, or
 #   (at your option) any later version.
-#   
+#
 #   This program is distributed in the hope that it will be useful,
 #   but WITHOUT ANY WARRANTY; without even the implied warranty of
 #   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#   GNU General Public License for more details.        
-#                                                        
+#   GNU General Public License for more details.
+#
 #   You should have received a copy of the GNU General Public License
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>
 
@@ -98,5 +98,12 @@ Ajax and JavaScript have brought functionality back to the client side, which ha
 '''
 js_function = ['eval(', 'document.cookie ', 'document.referrer ', 'document.attachEvent ', 'document.body ', 'document.body.innerHtml ', 'document.body.innerText ', 'document.close ', 'document.create ', 'document.createElement ', 'document.execCommand ', 'document.forms[0].action ', 'document.location ', 'document.open ', 'document.URL ', 'document.URLUnencoded', 'document.write ', 'document.writeln ', 'location.hash ', 'location.href ', 'location.search ', 'window.alert ', 'window.attachEvent ', 'window.createRequest ', 'window.execScript ', 'window.location ', 'window.open ', 'window.navigate ', 'window.setInterval ', 'window.setTimeout ', 'XMLHTTP']
 
+###################################################################################################
+#							               PHP TERMS										  #
+###################################################################################################
 
 
+'''
+It's PHP so....yeah.
+'''
+php_function = ['exec(']
