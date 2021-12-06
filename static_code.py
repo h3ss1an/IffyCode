@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #	Static Code Checker - static_code
-# 	Written by Will Harmon, (h3ss1an)
+# 	by Will Harmon
 #
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
@@ -17,7 +17,11 @@
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>
 
 
-import argparse, sys, io, os, datetime
+import argparse
+import sys
+import io
+import os
+import datetime
 from iffy_code import streams, servlets, XXS, response_splitting, redirection, database, SSL, c_string_copy, c_string_concat, c_sprintf, c_n_string_copy, c_n_string_concat, js_function, php_function
 
 parser = argparse.ArgumentParser(
@@ -38,7 +42,7 @@ count = 0
 def banner():
 	print("######################################################################################")
 	print("#                                Static Code Checker                                 #")
-	print("#                                     by h3ss1an                                     #")
+	print("#                                   by Will Harmon                                   #")
 	print("#                                                                                    #")
 	print("######################################################################################")
 	print("\n")
