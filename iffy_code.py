@@ -1,10 +1,10 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 
 
-###################################################################################################
-#							                   JAVA TERMS	                                                      #
-###################################################################################################
+##############
+# JAVA TERMS #
+##############
 
 # Input and Output Streams
 streams = ["Java.io", "java.util.zip", "java.util.jar", "FileInputStream", "ObjectInputStream", "FilterInputStream", "PipedInputStream", "SequenceInputStream", "StringBufferInputStream", "BufferedReader", "ByteArrayInputStream", "CharArrayReader", "ObjectInputStream", "PipedInputStream", "StreamTokenizer", "getResourceAsStream", "java.io.FileReader", "java.io.FileWriter", "java.io.RandomAccessFile", "java.io.Filev", "java.io.FileOutputStream", "mkdir", "renameTo"]
@@ -25,9 +25,9 @@ SSL = ['com.sun.net.ssl', 'SSLContext', 'SSLSocketFactory', 'TrustManagerFactory
 
 
 
-###################################################################################################
-#							                   C/C++ TERMS                                                      #
-###################################################################################################
+###############
+# C/C++ TERMS #
+###############
 
 
 '''
@@ -71,9 +71,9 @@ Developers frequently replace functions like strcpy with the counted "n" version
 '''
 c_n_string_concat = ['strncat', 'wcsncat', '_tcsncat', '_mbsncat', '_mbsnbcat', 'StrCatN', 'StrCatNA', 'StrCatNW', 'StrNCat', 'StrNCatA', 'StrNCatW', 'lstrncat', 'lstrcatnA', 'lstrcatnW', 'lstrcatn', '_fstrncat']
 
-###################################################################################################
-#							               Javascript TERMS                                                     #
-###################################################################################################
+####################
+#	JavaScript TERMS #
+####################
 
 
 '''
@@ -81,9 +81,9 @@ Ajax and JavaScript have brought functionality back to the client side, which ha
 '''
 js_function = ['eval(', 'document.cookie ', 'document.referrer ', 'document.attachEvent ', 'document.body ', 'document.body.innerHtml ', 'document.body.innerText ', 'document.close ', 'document.create ', 'document.createElement ', 'document.execCommand ', 'document.forms[0].action ', 'document.location ', 'document.open ', 'document.URL ', 'document.URLUnencoded', 'document.write ', 'document.writeln ', 'location.hash ', 'location.href ', 'location.search ', 'window.alert ', 'window.attachEvent ', 'window.createRequest ', 'window.execScript ', 'window.location ', 'window.open ', 'window.navigate ', 'window.setInterval ', 'window.setTimeout ', 'XMLHTTP']
 
-###################################################################################################
-#							               PHP TERMS                                                            #
-###################################################################################################
+#############
+#	PHP TERMS #
+#############
 
 
 '''
